@@ -28,7 +28,6 @@ Resources:
             Name: TriggerSchedule
             Description: deploy scheduled trigger throught SAM
             Enabled: true
-
       Policies:
         - S3WritePolicy: { BucketName: "ao-dai-gia-bach"}
       Timeout: 20  
